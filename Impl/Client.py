@@ -15,7 +15,6 @@ class ChatClient:
         self.master = master
         self.master.title("Chat Client")
 
-        # Configurazione tema scuro
         self.master.configure(bg='black')
 
         self.chat_display = scrolledtext.ScrolledText(self.master, wrap=tk.WORD, state='disabled', bg='black', fg='white', insertbackground='white', selectbackground='gray')

@@ -8,7 +8,6 @@ Created on Thu Jul 11 13:33:36 2024
 import socket
 import threading
 
-# Lista per tenere traccia delle connessioni dei client
 clients = []
 
 def broadcast(message, client_socket):
